@@ -10,7 +10,7 @@ const Projects = () => {
       image: "/src/assets/project1.png",
       technologies: ["React", "Javascript", "Bootstrap", "CSS"],
       github: "https://github.com/absapte/Learning-Management-System",
-      
+      demo: "https://vercel.com/absaptes-projects/learning-management-system",
     },
     {
       id: 2,
