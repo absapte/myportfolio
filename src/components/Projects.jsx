@@ -10,7 +10,7 @@ const Projects = () => {
       image: "/src/assets/project1.png",
       technologies: ["React", "Javascript", "Bootstrap", "CSS"],
       github: "https://github.com/absapte/Learning-Management-System",
-      demo: "",
+      
     },
     {
       id: 2,
@@ -19,8 +19,8 @@ const Projects = () => {
        " octor Appointment Booking System – MERN Stack (MongoDB, Express.js, React.js, Node.js) with JWT authentication, and real-time appointment management.",
       image: "/src/assets/project2.png",
       technologies: ["React", "Express", "Nodejs", "Tailwind","MongoDB"],
-      github: "",
-      demo: "",
+      github: "https://github.com/absapte/AppointmentApp",
+      
     },
     
   ];
