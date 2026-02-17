@@ -16,7 +16,7 @@ const Header = () => {
           and bringing ideas to life through code. I specialize in <span className="text-success fw-bold">modern technologies</span> and clean development practices.
         </p>
         <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
-          <a href="/src/pdf/Akshay Sapte Resume Updated.pdf" download className="btn btn-lg btn-gradient px-5 py-3">
+          <a href="/src/pdf/Akshay Resume Updated.pdf" download className="btn btn-lg btn-gradient px-5 py-3">
             Download Resume
           </a>
           <a href="#contact" className="btn btn-lg btn-outline-gradient px-5 py-3">
