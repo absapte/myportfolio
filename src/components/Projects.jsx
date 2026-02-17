@@ -1,4 +1,6 @@
 import React from "react";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
 
 const Projects = () => {
   const projects = [
@@ -6,8 +8,8 @@ const Projects = () => {
       id: 1,
       title: "Learning Management System",
       description:
-            "A React-based frontend LMS with a modern, responsive UI for course browsing and user interaction.",
-      image: "/src/assets/project1.png",
+        "A React-based frontend LMS with a modern, responsive UI for course browsing and user interaction.",
+      image: project1,
       technologies: ["React", "Javascript", "Bootstrap", "CSS"],
       github: "https://github.com/absapte/Learning-Management-System",
       demo: "https://learning-management-system-chi-rouge.vercel.app/",
@@ -16,14 +18,13 @@ const Projects = () => {
       id: 2,
       title: "Doctor Appointment",
       description:
-       " octor Appointment Booking System – MERN Stack (MongoDB, Express.js, React.js, Node.js) with JWT authentication, and real-time appointment management.",
-      image: "/src/assets/project2.png",
-      technologies: ["React", "Express", "Nodejs", "Tailwind","MongoDB"],
+        "Doctor Appointment Booking System – MERN Stack with JWT authentication and real-time appointment management.",
+      image: project2,
+      technologies: ["React", "Express", "Nodejs", "Tailwind", "MongoDB"],
       github: "https://github.com/absapte/AppointmentApp",
-      
     },
-    
   ];
+
 
   return (
     <section id="projects" className="py-5 bg-light">
